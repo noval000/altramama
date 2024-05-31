@@ -1,0 +1,401 @@
+@media (max-width: 1212px) {
+    .absoluteBlockRightAbout {
+        right: 10px;
+        top: -60px;
+    }
+    .blockAbsoluteText {
+        font-size: 46px;
+    }
+    .blockRecommend {
+        width: 300px;
+        height: 125px;
+    }
+    .textBlockRecommend {
+        font-size: 25px;
+    }
+    .iconBlockRecommend {
+        bottom: 15px;
+    }
+    .iconBlockRecommendTwoRowText {
+        bottom: 43px;
+    }
+    .media1212mr0 {
+        margin-right: 0;
+    }
+    .media1212flex {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+}
+
+@media (max-width: 1152px) {
+    .titleBLockQuestionsAndConsult {
+        font-size: 32px;
+    }
+
+    .subtitleBLockQuestionsAndConsult {
+        font-size: 20px;
+    }
+
+    .descriptionBLockQuestionsAndConsult {
+        font-size: 14px;
+    }
+
+    .blockBtnBlockConsult a {
+        font-size: 20px;
+    }
+
+    .offerBtnBLue {
+        font-size: 14px;
+    }
+
+    .w447 {
+        width: auto;
+    }
+    .fonTextAbout {
+        width: 160.029px;
+        height: 105.159px;
+    }
+    .absoluteBlockRightAbout {
+        right: 12px;
+        top: -100px;
+    }
+}
+
+@media (max-width: 1127px) {
+    .blockStep {
+        width: 100%;
+    }
+    .stepBlockNumberRight {
+        right: -38px;
+    }
+    .pr110media1127px {
+        padding-right: 110px;
+    }
+}
+
+@media (max-width: 1111px) {
+    .itc-slider-item {
+        width: 100%!important;
+    }
+    .h506slider2 {
+        width: auto;
+        height: 300px;
+    }
+    .cardGallery {
+        width: 100%;
+    }
+    .iconTextRewiewsSlider2 {
+        bottom: -60px;
+        right: -30px;
+    }
+    .nameTextRewiews2 {
+        right: -21px;
+        top: 3px;
+    }
+}
+
+@media (max-width: 1075px) {
+    .imageLeftMain {
+        padding-left: 0;
+    }
+    .blockTextOffer {
+        width: auto;
+    }
+    .d-none1067 {
+        display: none;
+    }
+    .fonQuestons {
+        display: none;
+    }
+    .fon1067px {
+        background-image: url(../img/questions/background.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+    .titleBLockQuestionsAndConsult {
+        position: relative;
+        top: unset;
+        left: unset;
+        margin-bottom: 24px;
+    }
+    .blockTextConsultAndQuestions {
+        padding-bottom: 20px;
+    }
+    .pMedia1067px {
+        padding: 20px;
+    }
+    .meRecommend {
+        padding-top: 120px;
+    }
+}
+
+@media (max-width: 987px) {
+    .pl110 {
+        padding-right: 20px;
+    }
+    .pr110media1127px {
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 944px) {
+    .w100media944px {
+        width: 100%;
+    }
+    .media1212flex {
+        align-items: center;
+    }
+    .centerRecommendMedia944 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .imageLeftMain img {
+        width: 100%;
+        height: 475px;
+    }
+    .textPhoto {
+        left: 200px;
+        top: 455px;
+    }
+    .blockAbsoluteText {
+        left: 2%;
+        top: 10%;
+    }
+}
+
+@media (max-width: 842px) {
+    .blockAbsoluteText {
+        font-size: 36px;
+    }
+    .blockOfferMain {
+        margin-left: 10px;
+    }
+}
+@media (max-width: 818px) {
+    .mainSectionPadding {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .mainSection {
+        height: 335px;
+    }
+    .meRecommend {
+        padding-top: 680px;
+    }
+    .fonRecomend {
+        top: 500px;
+    }
+    .mb143 {
+        margin-bottom: 20px;
+    }
+    .blockAbsoluteText {
+        top: 10%;
+    }
+    .blockTextOffer {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .imageLeftMain {
+        width: 100%;
+    }
+    .imageLeftMain img {
+        max-width: 100%;
+        height: auto;
+        width: 100%;
+    }
+    .fonRecomend {
+        top: 670px;
+    }
+    .w100media944px {
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 767px) {
+    .d-noneMenuList767 {
+        display: none;
+    }
+    .titleBlockTextAboutClinic {
+        margin-bottom: 20px!important;
+    }
+    .descriptionBlockTextAboutClinic {
+        margin-bottom: 20px;
+    }
+    .reverseFlexMedia767px {
+        flex-direction: column-reverse;
+    }
+    .imageAboutClinic img {
+        width: 100%;
+    }
+    .mt20media767px {
+        margin-top: 20px;
+    }
+    .pl110 {
+        padding-left: 55px;
+    }
+    .ml30media1127px {
+        padding-left: 50px;
+    }
+    .pr110media1127px {
+        padding-right: 20px;
+        padding-left: 55px !important;
+    }
+    .afterLineRight {
+        border-left: 1px solid #2E968C;
+        border-right: none;
+    }
+    .stepBlockNumberRight {
+        left: -38px;
+        right: unset;
+    }
+    .subtitleStep {
+        text-align: start!important;
+    }
+    .titleStepPage2 {
+        text-align: start!important;
+    }
+    .iconHeaderNone img {
+        display: none;
+    }
+    .headerMobileNone {
+        display: none!important;
+    }
+    .me-3Media767px {
+        margin-right: 1rem;
+    }
+    .noneBtnSocialHeader {
+        display: flex!important;
+    }
+    .decriptionSectionThanks {
+        padding: 0 20px;
+    }
+    .blockInfoHeader {
+        margin-right: 0!important;
+    }
+    .textHeaderInfo {
+        display: flex;
+        flex-direction: column;
+    }
+    .w100media944px {
+        flex-direction: column;
+    }
+    .titleSectionThanks, .decriptionSectionThanks  {
+        font-size: 24px;
+    }
+    .descriptionBlockTextAboutClinic {
+        font-size: 14px;
+    }
+    .titleBlockTextAboutClinic {
+        font-size: 32px;
+    }
+    .textBlockRecommend {
+        font-size: 24px;
+    }
+    .blockAbsoluteText {
+        font-size: 28px;
+    }
+    .blockTextOffer {
+        font-size: 28px;
+    }
+    .blockTextOffer span {
+        font-size: 28px;
+    }
+    .descriptionMainSection {
+        font-size: 14px;
+    }
+    .meRecommend {
+        padding-top: 710px;
+    }
+    .fonRecomend {
+        top: 704px;
+    }
+    .blockRecommend {
+        margin-bottom: 30px;
+    }
+    .decriptionSectionThanks {
+        width: auto;
+    }
+    .mainSection {
+        height: auto;
+    }
+    .meRecommend {
+        padding-top: unset;
+    }
+    .mainSectionPadding {
+        padding-top: 40px;
+    }
+    .imageLeftMain img {
+        height: auto;
+        width: 380px;
+    }
+    .textPhoto {
+        left: 325px;
+        top: 320px;
+    }
+    .blockAbsoluteText {
+        left: 13px;
+    }
+    .blockAbsoluteText {
+        top: 5%;
+    }
+    .fonRecomend {
+        display: none;
+    }
+}
+
+@media (max-width: 515px) {
+    .textPhoto {
+        left: 155px;
+        top: 255px;
+    }
+    .blockAbsoluteText {
+        width: 343px;
+    }
+    .imageLeftMain img {
+        height: 280px;
+        width: 220px;
+    }
+    .blockBg {
+        width: 124.265px;
+        height: 67.119px;
+    }
+    .textBg {
+        font-size: 10px;
+        width: 80px;
+    }
+    .offerBtnBLue, .blockBtnOffer  {
+        width: 100%;
+    }
+    .textHeaderInfo {
+        font-size: 10px;
+    }
+    .socialNetworksHeader a img {
+        max-width: 65%;
+        height: auto;
+    }
+    .socialNetworksHeader button {
+        width: 24px;
+        height: 24px;
+    }
+    .btnSocialHeader a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo {
+        width: 25%;
+    }
+    .logo img {
+        max-width: 100%;
+        height: auto;
+    }
+    .blockTextOffer {
+        font-size: 20px;
+    }
+    .offerBtnBLue {
+        font-size: 14px;
+    }
+}

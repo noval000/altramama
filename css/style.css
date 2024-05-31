@@ -1,0 +1,1251 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Kobzar KS";
+    src: url("../fonts/kobzarks.otf");
+}
+
+@font-face {
+    font-family: Actay;
+    src: url("../fonts/Actay-Regular.otf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Actay Wide';
+    src: url("../fonts/ActayWide-Bold.otf");
+}
+
+@font-face {
+    font-family: 'Cormorant';
+    src: url("../fonts/Cormorant-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Cormorant';
+    src: url("../fonts/Cormorant-Light.ttf");
+    font-weight: 300;
+}
+
+
+body {
+    box-sizing: border-box;
+}
+
+button {
+    border: none;
+    background: transparent;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: unset;
+    text-decoration: none;
+}
+
+.relative {
+    position: relative;
+}
+
+.pb100{
+    padding-bottom: 100px;
+}
+
+.mb100{
+    margin-bottom: 100px;
+}
+
+.p0 {
+    padding: 0;
+}
+
+.container {
+    max-width: 1110px;
+}
+
+/*     header     */
+
+.noneBtnSocialHeader {
+    display: none!important;
+}
+
+header {
+    background: #fff;
+    border-bottom: 1px solid #E1AB9B;
+}
+
+.socialNetworksHeader a img {
+    max-width: 100%;
+    height: auto;
+}
+
+.socialNetworksHeader {
+    display: flex;
+    align-items: center;
+}
+
+.socialNetworksHeader button {
+    background: #F08A83;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*   main section    */
+
+.mainSectionMobile {
+    display: none;
+}
+
+.mainSection {
+    background-image: url("../img/mainSection/bgMain.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 540px;
+}
+
+/*.allTextMain {*/
+/*    position: absolute;*/
+/*    top: 20%;*/
+/*    left: 50%;*/
+/*    transform: translate(-50%, -20%);*/
+/*}*/
+
+.textPhoto {
+    position: absolute;
+    left: 25px;
+    top: 130px;
+    width: 150px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageLeftMain {
+    padding-left: 90px;
+}
+
+.mainSectionPadding {
+    padding-top: 70px;
+}
+
+.blockAbsoluteText {
+    color: #4B3737;
+    font-family: "Cormorant";
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    left: 30%;
+    position: absolute;
+}
+
+.blockAbsoluteText span {
+    color: #F08A83;
+    font-family: "Kobzar KS";
+}
+
+.subtitleMainSection {
+    position: absolute;
+    width: 103%;
+    left: 6%;
+    top: 110px;
+}
+
+.blockOfferMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 55px;
+    align-items: flex-start;
+    margin-left: 30px;
+}
+
+.blockTextOffer {
+    color: #4B3737;
+    font-family: Actay;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 540px;
+    margin-bottom: 40px;
+}
+
+.blockTextOffer span {
+    color: #2E968C;
+/* H4 */
+    font-family: Actay;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.offerBtnBLue {
+    padding: 16px 24px;
+    background: #2E968C;
+    color: #FFF9F5;
+    font-family: "Actay Wide";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.blockBg {
+    width: 178.029px;
+    height: 96.159px;
+    transform: rotate(-20.291deg);
+    background: #F08A83;
+    position: absolute;
+    border-radius: 60%;
+}
+
+.textBg {
+    position: absolute;
+    color: #FFF9F5;
+    text-align: center;
+    font-family: Actay;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/*   accordian offer   */
+
+
+.textAccordianOffer {
+    color: #4B3737;
+    font-family: Cormorant;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.accordianOffer {
+    padding-top: 200px;
+}
+
+.titleAccordianOffer {
+    color: #4B3737;
+    font-family: Cormorant;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.iconStep {
+    width: 71.514px;
+    height: 38.627px;
+    transform: rotate(-20.886deg);
+    background: #2E968C;
+    position: absolute;
+    border-radius: 60%;
+}
+
+.nameStep {
+    left: 30px;
+    position: relative;
+}
+
+.textStep {
+    position: absolute;
+    color: #FFF9F5;
+    font-family: Cormorant;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.iconAndText {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titleStep {
+    margin-left: 60px;
+    color: #4B3737;
+    font-family: Cormorant;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.titleListAccordian {
+    color: #4B3737;
+    font-family: Actay;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.listContactsAccordian a {
+    color: #2E968C;
+    font-family: Actay;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.lastLiColorA a {
+    color: #4B3737;
+}
+
+.textBottomAccordianOne {
+    color: #4B3737;
+    font-family: Actay;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.border-bottomOneAccordian {
+    border-bottom: 1px solid #E1AB9B;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    outline: 0;
+    box-shadow: none;
+}
+.accordion-button:not(.collapsed) {
+    color: unset;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.accordion-item {
+    color: unset;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #E1AB9B;
+}
+
+.titleListAccordian {
+    color: #4B3737;
+    font-family: Actay;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.textAccordian {
+    color: #4B3737;
+    font-family: Actay;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+/*      section surmama   */
+
+
+.titleSection {
+    color: #4B3737;
+    font-family: Cormorant;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 190px;
+}
+
+.titlePositionSurmam {
+    color: #4B3737;
+    font-family: Actay;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/*     section history    */
+
+.titleSectionHistory {
+    color: #F08A83;
+    font-family: "Kobzar KS";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.subTitleSectionHistory {
+    color: #4B3737;
+    font-family: Cormorant;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.borderBlockHistory {
+    border-top: 2px solid #F08A83;
+    border-bottom: 2px solid #F08A83;
+}
+
+.borderHistoryLeft {
+    border-left: 2px solid #F08A83;
+}
+
+.borderHistoryRight {
+    border-right: 2px solid #F08A83;
+}
+
+.textCardHistory {
+    color: #4B3737;
+    font-family: Actay;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.linkCardHistory a {
+    color: #F08A83;
+    font-family: Actay;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.tiileSectionRewiews span {
+    color: #F08A83;
+    font-family: "Kobzar KS";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.tiileSectionRewiews {
+    color: #4B3737;
+    font-family: Cormorant;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+
+
+
+
+
+/*     slider    */
+
+.gallery {
+    padding: 4rem 0;
+    display: flex;
+    overflow: scroll;
+    width: 100%;
+}
+
+.cardGallery {
+    width: 540px;
+}
+
+.active {
+    scroll-snap-type: unset;
+}
+
+.gallery li {
+    scroll-snap-align: center;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+.textGalleryJs {
+    width: 500px;
+    border: 2px solid #E1AB9B;
+    margin: 0 20px;
+    position: relative;
+}
+
+.nameCardGallery {
+    padding: 24px;
+    overflow: hidden;
+}
+
+/*Убрать полосу прокрутки у элемента*/
+.gallery::-webkit-scrollbar {
+    width: 0;
+}
+
+.more {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 75px;
+    z-index: 9;
+    position: relative;
+    color: #F08A83;
+    font-family: Actay;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0 20px;
+    transition: .5s all ease;
+}
+.more:hover {
+    opacity: .7;
+}
+.fonBlock {
+    width: 100%;
+    height: 130px;
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #FFF 25.64%);
+}
+
+.iconTextRewiews {
+    width: 178.029px;
+    height: 96.159px;
+    transform: rotate(-12deg);
+    background: #2E968C;
+    position: absolute;
+    border-radius: 60%;
+    bottom: -45px;
+    right: -25px;
+}
+
+
+.nameTextRewiews {
+    position: absolute;
+    right: 40px;
+    z-index: 9;
+    color: #FFF9F5;
+    font-family: Actay;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nameRewiews {
+    display: flex;
+    align-items: center;
+}
+
+.imgGallery img {
+    max-width: 100%;
+    height: auto;
+}
+
+.imgGallery {
+    display: flex;
+}
+
+.titleSectionGallery {
+    color: #4B3737;
+    font-family: Cormorant;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+/*     page2     */
+
+.mb0 {
+    margin-bottom: 0!important;
+}
+
+.mb143 {
+    margin-bottom: 143px;
+}
+
+.w447 {
+    width: 447px;
+}
+
+.descriptionMainSection {
+    color: #4B3737;
+    font-family: Actay;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 235px;
+}
+
+.meRecommend {
+    padding-top: 240px;
+    position: relative;
+}
+
+.blockRecommend {
+    border: 2px solid #F08A83;
+    background: rgba(255, 255, 255, 0.40);
+    backdrop-filter: blur(5.150000095367432px);
+    width: 350px;
+    height: 140px;
+}
+
+.mr30 {
+    margin-right: 30px;
+}
+
+.mb30 {
+    margin-bottom: 30px;
+}
+
+.textBlockRecommend {
+    padding: 16px 14px;
+    color: #4B3737;
+    font-family: Actay;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.iconBlockRecommend {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 4px;
+}
+
+.iconBlockRecommendTwoRowText {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 36px;
+}
+
+.iconBlockRecommend img {
+    max-width: 100%;
+    height: auto;
+}
+
+.fonRecomend {
+    background-image: url("../img/page2/fonBg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 52%;
+    height: 530px;
+    top: 215px;
+    position: absolute;
+}
+
+.titleSectionRecommend {
+    margin-bottom: 20px;
+    color: #4B3737;
+    font-family: Cormorant;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+
+
+
+
+/*  about clinic  */
+
+
+.imageAboutClinic img {
+    max-width: 100%;
+    height: auto;
+}
+
+.titleBlockTextAboutClinic {
+    color: #4B3737;
+    font-family: Cormorant;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.descriptionBlockTextAboutClinic {
+    color: #4B3737;
+    font-family: Actay;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.mt30 {
+    margin-top: 30px;
+}
+
+.textForFon {
+    z-index: 1;
+    width: 150px;
+    height: 60px;
+    color: #FFF9F5;
+    text-align: center;
+    font-family: Actay;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fonTextAbout {
+    position: absolute;
+    width: 178.029px;
+    height: 96.159px;
+    transform: rotate(-20.291deg);
+    background: #F08A83;
+    border-radius: 60%;
+}
+
+.absoluteBlockRightAbout {
+    position: absolute;
+    right: -30px;
+    width: 170px;
+    top: -30px;
+}
+
+.fonAboutClinic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pb30 {
+    padding-bottom: 30px;
+}
+
+
+/*   section thanks    */
+
+
+.thanksForChoose {
+    border-top: 2px solid #F08A83;
+    border-bottom: 2px solid #F08A83;
+    padding: 24px 0;
+}
+
+.titleSectionThanks {
+    color: #4B3737;
+    text-align: center;
+    font-family: Cormorant;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 36px;
+}
+
+.decriptionSectionThanks {
+    width: 770px;
+    color: #4B3737;
+    text-align: center;
+    font-family: Cormorant;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+/*   section command    */
+
+.imageSectionCommand img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.titleSectionComand {
+    color: #4B3737;
+    font-family: Cormorant;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 40px;
+}
+
+.titleSectionComand span {
+    color: #F08A83;
+    font-family: "Kobzar KS";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.descriptionSectinonCommand {
+    color: #4B3737;
+    font-family: Actay;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+
+/* step page2  */
+
+
+.tenSteps {
+    background-image: url("../img/page2/10step.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center 90px;
+    width: 100%;
+    height: 100%;
+}
+
+.titleSectionTenSteps {
+    color: #4B3737;
+    font-family: Cormorant;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 40px;
+}
+
+.titleSectionTenSteps span {
+    color: #F08A83;
+    font-family: "Kobzar KS";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.blockStep {
+    width: 445px;
+    position: relative;
+}
+
+
+.titleStepPage2 {
+    color: #4B3737;
+    font-family: Cormorant;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+
+.subtitleStep {
+    color: #4B3737;
+    font-family: Actay;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.afterLineLeft {
+    border-left: 1px solid #2E968C;
+}
+
+.afterLineRight {
+    border-right: 1px solid #2E968C;
+}
+
+.pr110 {
+    padding-right: 110px;
+}
+
+.pl110 {
+    padding-left: 110px;
+}
+
+.pl1 {
+    padding-left: 1px;
+}
+.pl2 {
+    padding-left: 2px;
+}
+
+.pr1 {
+    padding-right: 1px;
+}
+
+.pb50 {
+    padding-bottom: 50px;
+}
+
+.stepBlockNumberLeft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: -37px;
+    top: 5px;
+}
+
+.stepBlockNumberRight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: -145px;
+    top: 5px;
+}
+
+.iconFonStepPage2 {
+    width: 71.514px;
+    height: 38.627px;
+    transform: rotate(-20.886deg);
+    background: #2E968C;
+    border-radius: 60%;
+}
+
+.textFonStepPage2 {
+    margin-bottom: 12px;
+    color: #FFF9F5;
+    text-align: center;
+    font-family: Cormorant;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: uppercase;
+    position: absolute;
+}
+
+
+/*   consult   */
+
+
+.fonQuestons {
+    background-image: url("../img/questions/background.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 544px;
+    position: absolute;
+    z-index: 0;
+    top: 105px;
+}
+
+
+.blockTextConsultAndQuestions {
+    padding-bottom: 130px;
+}
+
+.subtitleBLockQuestionsAndConsult {
+    color: #4B3737;
+    font-family: Actay;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.descriptionBLockQuestionsAndConsult {
+    color: #4B3737;
+    font-family: Actay;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.titleBLockQuestionsAndConsult {
+    position: absolute;
+    top: 28%;
+    left: 28%;
+    color: #4B3737;
+    font-family: Cormorant;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.blockBtnBlockConsult a {
+    color: #4B3737;
+    font-family: Actay;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btnSliderRewiews {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: -40px;
+}
+
+.blockTopRewiews {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titleBlockTopRewiews {
+    color: #4B3737;
+    font-family: Cormorant;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.titleBlockTopRewiews span {
+    color: #F08A83;
+    font-family: "Kobzar KS";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.pt50  {
+    padding-top: 50px;
+}
+
+.nameTextRewiewsPage2 {
+    position: absolute;
+    right: 0;
+}
+
+.nameTextRewiews2 {
+    position: absolute;
+    right: -15px;
+    z-index: 9;
+    width: 160px;
+    color: #FFF9F5;
+    font-family: Actay;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    top: 39px;
+}
+
+.h506slider2 {
+    height: 540px;
+    width: 450px;
+    margin: 0 70px;
+}
+
+.pl120slider2 {
+    padding-left: 110px;
+}
+
+.iconTextRewiewsSlider2 {
+    bottom: -100px;
+    right: -25px;
+}
+
+.nameCardGallery  {
+    color: #4B3737;
+    font-family: Actay;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-items: stretch;
+}
+
+.cardGallery img {
+    position: absolute;
+    top: 24px;
+    left: 6px;
+    z-index: 9;
+}
+
+/*   o surr materinstve  */
+
+
+.titleBottomSurrMaterinstvoQuestions {
+    color: #4B3737;
+    font-family: Cormorant;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nameCardGallery2 {
+    padding: 24px 24px 24px 110px;
+    overflow: hidden;
+    color: #4B3737;
+    font-family: Actay;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.pt0imp {
+    padding-top: 0;
+}
+
+
+/*    contacts    */
+
+
+.titleContacts {
+    color: #4B3737;
+    font-family: Cormorant;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.blockRightContacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.blockBtnContacts .btnSocialHeader {
+    background: #F08A83;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.locationContacts .textHeaderInfo {
+    color: #4B3737;
+    font-family: Actay;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+/*    лицензии  */
+
+
+.license {
+    padding: 40px 0;
+    border-top: 1px solid #F08A83;
+    border-bottom: 1px solid #F08A83;
+    margin-bottom: 100px;
+}
+
+.titleLicense {
+    color: #4B3737;
+    font-family: Cormorant;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+
+.sliderLicense25 {
+    width: 25%!important;
+}
+
+
+
+/*  footer   */
+
+
+footer {
+    background: #E1AB9B;
+    padding: 64px 40px;
+}
+
+.titleNameListFooter {
+    color: #FFF9F5;
+    font-family: Actay;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+.blockNavFooter ul li:not(:last-child) {
+    margin-bottom: 12px;
+}
+
+.blockNavFooter ul li a {
+    color: #FFF9F5;
+    text-align: center;
+    font-family: 'Actay';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.descriptionFooter li {
+    color: #FFF9F5;
+    font-family: 'Actay';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+.consult_special {
+    padding: 24px 0;
+    color: #4B3737;
+    font-family: 'Actay';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.containerSpecial {
+    max-width: 1400px;
+    padding: 0 20px;
+}
