@@ -11,33 +11,102 @@
     <link rel="stylesheet" href="./css/media.css">
     <script src="./js/jquery-3.7.1.min.js"></script>
     <link rel="stylesheet" href="./css/itc-slider.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
     <title>page2</title>
 </head>
 <body>
+
+
+
+<nav class="mobileNav">
+    <div class="headerMenu">
+        <div class="logoMenuNav">
+            <img src="./img/logoMenu/altra_mama_logo.jpg" alt="altra_mama_logo">
+        </div>
+        <button class="btnCloseMenu">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M18 6.00003L6 18M6 6.00003L18 18" stroke="#4B3737" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/>
+            </svg>
+        </button>
+    </div>
+    <div class="bodyMenu d-flex flex-column align-items-center justify-content-center">
+        <div class="d-flex flex-column align-items-start">
+            <div class="locationHeader d-flex align-items-center mb-2 mt-3">
+                <img src="./img/icon/iconLocation.png" alt="iconLocation">
+                <div class="textHeaderInfo">
+                    г. Москва, ул. Нагорная 4А
+                </div>
+            </div>
+            <div class="locationHeader d-flex align-items-center mb-2">
+                <img src="./img/icon/iconPhone.png" alt="iconLocation">
+                <div class="textHeaderInfo ms-2">
+                    <a href="">+7 (999) 999 99 99</a>
+                </div>
+            </div>
+            <div class="locationHeader d-flex align-items-center mb-3">
+                <img src="./img/icon/iconMail.png" alt="iconLocation">
+                <div class="textHeaderInfo ms-2">
+                    mama@altra-mama.ru
+                </div>
+            </div>
+        </div>
+        <div class="blockNavBtnMobile">
+            <div class="btnMenuNav d-flex align-items-center">
+                <button class="btnSocialHeader me-3">
+                    <a href="">
+                        <img src="./img/icon/iconWhatsApp.png" alt="">
+                    </a>
+                </button>
+                <button class="btnSocialHeader">
+                    <a href="">
+                        <img src="./img/icon/iconTelegram.png" alt="">
+                    </a>
+                </button>
+            </div>
+        </div>
+        <ul class="border-navMenu d-flex flex-column align-items-center mt-3 pt-3 pb-3">
+            <li class="mb-2">
+                <a href="">Родителям</a>
+            </li>
+            <li>
+                <a href="">Сурмамам</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
 
 <header class="pt-2 pb-3">
     <div class="container">
         <div class="row pb-2">
             <div class="col-md d-flex align-items-center justify-content-between">
                 <div class="logo">
-                    <img src="./img/Logo.png" alt="Logo">
+                    <img src="./img/logo.png" alt="Logo">
                 </div>
                 <div class="socialNetworksHeader">
                     <div class="blockInfoHeader d-flex align-items-center justify-content-between me-5">
                         <div class="locationHeader iconHeaderNone d-flex align-items-center me-4">
-                            <img src="./img/icon/iconLocation.png" alt="iconLocation">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M20 10C20 16 12 22 12 22C12 22 4 16 4 10C4 7.87827 4.84285 5.84344 6.34315 4.34315C7.84344 2.84285 9.87827 2 12 2C14.1217 2 16.1566 2.84285 17.6569 4.34315C19.1571 5.84344 20 7.87827 20 10Z" stroke="#F08A83" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 13C13.6569 13 15 11.6569 15 10C15 8.34315 13.6569 7 12 7C10.3431 7 9 8.34315 9 10C9 11.6569 10.3431 13 12 13Z" stroke="#F08A83" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
                             <div class="textHeaderInfo">
                                 г. Москва, ул. <span>Нагорная 4А</span>
                             </div>
                         </div>
                         <div class="locationHeader headerMobileNone d-flex align-items-center me-4">
-                            <img src="./img/icon/iconPhone.png" alt="iconLocation">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M22.1381 17.1701V20.1701C22.1392 20.4486 22.0822 20.7243 21.9706 20.9794C21.8591 21.2346 21.6954 21.4637 21.4902 21.652C21.285 21.8402 21.0427 21.9836 20.7789 22.0728C20.515 22.162 20.2355 22.1952 19.9581 22.1701C16.881 21.8357 13.9251 20.7842 11.3281 19.1001C8.91194 17.5648 6.86345 15.5163 5.32812 13.1001C3.63809 10.4913 2.58636 7.52109 2.25812 4.4301C2.23313 4.15356 2.26599 3.87486 2.35462 3.61172C2.44324 3.34859 2.58569 3.10679 2.77288 2.90172C2.96008 2.69665 3.18792 2.53281 3.44191 2.42062C3.69589 2.30843 3.97046 2.25036 4.24812 2.2501H7.24812C7.73342 2.24532 8.20391 2.41718 8.57188 2.73363C8.93985 3.05008 9.18019 3.48954 9.24812 3.9701C9.37474 4.93016 9.60957 5.87282 9.94812 6.7801C10.0827 7.13802 10.1118 7.52701 10.032 7.90098C9.95227 8.27494 9.76698 8.61821 9.49812 8.8901L8.22812 10.1601C9.65167 12.6636 11.7246 14.7365 14.2281 16.1601L15.4981 14.8901C15.77 14.6212 16.1133 14.4359 16.4872 14.3562C16.8612 14.2764 17.2502 14.3056 17.6081 14.4401C18.5154 14.7786 19.4581 15.0135 20.4181 15.1401C20.9039 15.2086 21.3475 15.4533 21.6646 15.8276C21.9818 16.2019 22.1503 16.6797 22.1381 17.1701Z" stroke="#F08A83" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
                             <div class="textHeaderInfo ms-2">
                                 <a href="">+7 (999) 999 99 99</a>
                             </div>
                         </div>
                         <div class="locationHeader headerMobileNone d-flex align-items-center">
-                            <img src="./img/icon/iconMail.png" alt="iconLocation">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M20 4.00001H4C2.89543 4.00001 2 4.89544 2 6.00001V18C2 19.1046 2.89543 20 4 20H20C21.1046 20 22 19.1046 22 18V6.00001C22 4.89544 21.1046 4.00001 20 4.00001Z" stroke="#F08A83" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M22 7.00001L13.03 12.7C12.7213 12.8934 12.3643 12.996 12 12.996C11.6357 12.996 11.2787 12.8934 10.97 12.7L2 7.00001" stroke="#F08A83" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
                             <div class="textHeaderInfo ms-2">
                                 mama@altra-mama.ru
                             </div>
@@ -58,6 +127,11 @@
                             <img src="./img/icon/iconWhatsApp.png" alt="">
                         </a>
                     </button>
+                    <div class="burgerMenu">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M2.50018 5C2.50018 6 2.5 5.48476 2.5 6C2.5 6.54467 2.5 6.5 2.50018 7H21.5C21.5 6 21.5 6.54467 21.5 6C21.5 5.45533 21.5 5.5 21.5 5H2.50018ZM2.5 12C2.5 11.4553 2.50004 11.5 2.50004 11H21.5C21.5 11.5 21.5 11.9116 21.5 12C21.5 12.0884 21.5 13 21.5 13H2.50004C2.5 12.5 2.5 12.5447 2.5 12ZM2.5 18.001C2.5 17.4563 2.5 17.5 2.50017 17.001H21.5C21.5 17.5 21.5 17.4563 21.5 18.001C21.5 18.5457 21.5 18.5 21.5 19.001H2.50017C2.50017 18.5 2.5 18.5457 2.5 18.001Z" fill="#4B3737"/>
+                        </svg>
+                    </div>
                 </div>
             </div>
         </div>
@@ -65,10 +139,10 @@
             <nav class="d-flex align-items-center justify-content-end">
                 <ul class="d-flex align-items-center">
                     <li class="me-3">
-                        <a href="">Родителям</a>
+                        <a href="index.html">Родителям</a>
                     </li>
                     <li>
-                        <a href="">Сурмамам</a>
+                        <a href="page2.html">Сурмамам</a>
                     </li>
                 </ul>
             </nav>
@@ -110,6 +184,65 @@
 </section>
 
 
+
+<section class="ourCardAbout pb100">
+    <div class="container">
+        <div class="row">
+            <div class="col-md">
+                <div class="titleSectionOurCardBlock">
+                    Ваши <span>мечты</span> — наши <span>достижения</span>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-3 w50media1200 mb90media1200">
+                <div class="cardAboutMe">
+                    <div class="fonCardAboutMe"></div>
+                    <div class="titleCardAboutMe">
+                        976
+                    </div>
+                    <div class="subtitleCardAboutMe">
+                        малышей появилось с помощью клиники в 2023 г
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 w50media1200 mb90media1200">
+                <div class="cardAboutMe">
+                    <div class="fonCardAboutMe"></div>
+                    <div class="titleCardAboutMe">
+                        48%
+                    </div>
+                    <div class="subtitleCardAboutMe">
+                        беременностей с первого переноса
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 w50media1200 mb90media1200_2">
+                <div class="cardAboutMe">
+                    <div class="fonCardAboutMe"></div>
+                    <div class="titleCardAboutMe">
+                        >8 000
+                    </div>
+                    <div class="subtitleCardAboutMe">
+                        ооцитов в банке клиники
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 w50media1200">
+                <div class="cardAboutMe">
+                    <div class="fonCardAboutMe"></div>
+                    <div class="titleCardAboutMe">
+                        23 770
+                    </div>
+                    <div class="subtitleCardAboutMe">
+                        успешных программ материнства с момента открытия
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="meRecommend pb100">
     <div class="fonRecomend"></div>
     <div class="container">
@@ -125,7 +258,7 @@
                 <div class="col-md mr30 media1212mr0 media1212flex">
                     <div class="blockRecommend mb30">
                         <div class="textBlockRecommend">Конфиденциальность</div>
-                        <div class="iconBlockRecommend">
+                        <div class="iconBlockRecommend iconBlockRecommendConf">
                             <img src="./img/icon/confidential.svg" alt="">
                         </div>
                     </div>
@@ -166,6 +299,7 @@
         </div>
     </div>
 </section>
+
 
 
 <section class="aboutClinic pb30">
@@ -293,7 +427,169 @@
     </div>
 </section>
 
+<section class="ourProgramms pb100">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 none944">
+                <div class="imageBlockOurProgramms">
+                    <img src="./img/ourProgramms/babyProgramms.png" alt="Programms">
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="titleBlockOurProgramms">
+                    <p class="tBlockOur">Показания к программе</p>
+                    <p class="sBlockOur">суррогатного<br class="noneBr"> материнства </p>
+                </div>
+                <div class="sliderOurProgramms">
+                    <div class="titleSlider mt-3 mb-3">
+                        …когда биологические родители не могут иметь ребенка естественным способом...
+                    </div>
+                    <div class="swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <div class="stepBlockNumberLeft iconSlider">
+                                    <div class="iconFonStepPage2"></div>
+                                    <div class="textFonStepPage2">
+                                        01
+                                    </div>
+                                </div>
+                                <div class="textSlider">
+                                    Отсутствие матки или неспособность к беременности и родам
+                                    по медицинским показаниям (врожденные аномалии, хирургические
+                                    вмешательства, тяжелые гинекологические заболевания).
+                                </div>
+                            </div>
+                            <div class="swiper-slide mt60">
+                                <div class="stepBlockNumberLeft iconSlider">
+                                    <div class="iconFonStepPage2"></div>
+                                    <div class="textFonStepPage2">
+                                        01
+                                    </div>
+                                </div>
+                                <div class="textSlider">
+                                    Отсутствие матки или неспособность к беременности и родам
+                                    по медицинским показаниям (врожденные аномалии, хирургические
+                                    вмешательства, тяжелые гинекологические заболевания).
+                                </div>
+                            </div>
+                            <div class="swiper-slide mt80">
+                                <div class="stepBlockNumberLeft iconSlider">
+                                    <div class="iconFonStepPage2"></div>
+                                    <div class="textFonStepPage2">
+                                        01
+                                    </div>
+                                </div>
+                                <div class="textSlider">
+                                    Отсутствие матки или неспособность к беременности и родам
+                                    по медицинским показаниям (врожденные аномалии, хирургические
+                                    вмешательства, тяжелые гинекологические заболевания).
+                                </div>
+                            </div>
+                            <div class="swiper-slide mt70">
+                                <div class="stepBlockNumberLeft iconSlider">
+                                    <div class="iconFonStepPage2"></div>
+                                    <div class="textFonStepPage2">
+                                        01
+                                    </div>
+                                </div>
+                                <div class="textSlider">
+                                    Отсутствие матки или неспособность к беременности и родам
+                                    по медицинским показаниям (врожденные аномалии, хирургические
+                                    вмешательства, тяжелые гинекологические заболевания).
+                                </div>
+                            </div>
+                        </div>
 
+
+
+                        <!-- If we need scrollbar -->
+                        <div class="swiper-scrollbar"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="fz pb100">
+    <div class="container">
+        <div class="row">
+            <div class="col-md text-center">
+                <div class="titlefz mb-4">
+                    Согласно Федеральному закону №538-ФЗ
+                </div>
+                <div class="titleSectionFz mb-5">
+                    Суррогатным родителям
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="borderSectFz">
+        <div class="container d-flex">
+            <div class="col-md d-flex flex-column align-items-end pCardFzLeft">
+                <div class="cardSectionFz">
+                    <div class="titleSectfz mb-4">
+                        Могут стать:
+                    </div>
+                    <ul class="subtitleSectFz">
+                        <li class="mb-3">
+                            <div class="iconLink d-flex me-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="13" viewBox="0 0 10 13" fill="none">
+                                    <path d="M9.8961 7.36991C10.4534 8.83045 8.71313 10.8509 6.00908 11.8827C3.30504 12.9145 0.661202 12.5669 0.103899 11.1064C-0.453403 9.64583 1.28687 7.6254 3.99091 6.59361C6.69496 5.56181 9.3388 5.90938 9.8961 7.36991Z" fill="#F08A83"></path>
+                                </svg>
+                            </div>
+                            пара, состоящая в браке, где один или оба супруга являются гражданами РФ;
+                        </li>
+                        <li class="mb-3">
+                            <div class="iconLink d-flex me-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="13" viewBox="0 0 10 13" fill="none">
+                                    <path d="M9.8961 7.36991C10.4534 8.83045 8.71313 10.8509 6.00908 11.8827C3.30504 12.9145 0.661202 12.5669 0.103899 11.1064C-0.453403 9.64583 1.28687 7.6254 3.99091 6.59361C6.69496 5.56181 9.3388 5.90938 9.8961 7.36991Z" fill="#F08A83"></path>
+                                </svg>
+                            </div>
+                            одинокая женщина, гражданка РФ
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md pCardFzRight">
+                <div class="cardSectionFz">
+                    <div class="titleSectfz mb-4">
+                        НЕ МОГУТ СТАТЬ:
+                    </div>
+                    <ul class="subtitleSectFz">
+                        <li class="mb-3">
+                            <div class="iconLink d-flex me-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="13" viewBox="0 0 10 13" fill="none">
+                                    <path d="M9.8961 7.36991C10.4534 8.83045 8.71313 10.8509 6.00908 11.8827C3.30504 12.9145 0.661202 12.5669 0.103899 11.1064C-0.453403 9.64583 1.28687 7.6254 3.99091 6.59361C6.69496 5.56181 9.3388 5.90938 9.8961 7.36991Z" fill="#F08A83"></path>
+                                </svg>
+                            </div>
+                            пары, не состоящиие в браке;
+                        </li>
+                        <li class="mb-3">
+                            <div class="iconLink d-flex me-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="13" viewBox="0 0 10 13" fill="none">
+                                    <path d="M9.8961 7.36991C10.4534 8.83045 8.71313 10.8509 6.00908 11.8827C3.30504 12.9145 0.661202 12.5669 0.103899 11.1064C-0.453403 9.64583 1.28687 7.6254 3.99091 6.59361C6.69496 5.56181 9.3388 5.90938 9.8961 7.36991Z" fill="#F08A83"></path>
+                                </svg>
+                            </div>
+                            одинокие мужчины;
+                        </li>
+                        <li class="mb-3">
+                            <div class="iconLink d-flex me-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="13" viewBox="0 0 10 13" fill="none">
+                                    <path d="M9.8961 7.36991C10.4534 8.83045 8.71313 10.8509 6.00908 11.8827C3.30504 12.9145 0.661202 12.5669 0.103899 11.1064C-0.453403 9.64583 1.28687 7.6254 3.99091 6.59361C6.69496 5.56181 9.3388 5.90938 9.8961 7.36991Z" fill="#F08A83"></path>
+                                </svg>
+                            </div>
+                            пары, где оба супруга не являются гражданами РФ
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <section class="tenSteps pb100">
     <div class="container">
@@ -568,7 +864,7 @@
                                 <div class="cardGallery relative">
                                     <img src="./img/rewiewsSlider/baby1.png" alt="baby1">
                                     <div class="textGalleryJs h506slider2">
-                                        <div class="nameCardGallery2 pl120slider2">
+                                        <div class="nameCardGallery2 pl120slider2 nameCardGalleryPage2">
                                             Хочу выразить огромную благодарность клинике Альтравита за помощь в осуществлении нашей мечты о ребенке.
                                             Благодаря вашему профессионализму и заботе, мы стали счастливыми родителями прекрасной дочки.
                                             </br>
@@ -579,15 +875,7 @@
                                             </br>
                                             Спасибо за ваше тепло, заботу и профессионализм!
                                         </div>
-<!--                                        <div class="fonBlock"></div>-->
-<!--                                        <div class="nameRewiews">-->
-<!--                                            <div class="nameTextRewiews">-->
-
-<!--                                            </div>-->
-<!--                                            <div class="iconTextRewiews">-->
-
-<!--                                            </div>-->
-<!--                                        </div>-->
+                                        <div class="fonBlock show814"></div>
                                     </div>
                                 </div>
                             </div>
@@ -595,7 +883,7 @@
                                 <div class="cardGallery relative">
                                     <img src="./img/rewiewsSlider/baby2.png" alt="baby2">
                                     <div class="textGalleryJs h506slider2">
-                                        <div class="nameCardGallery2 pl120slider2">
+                                        <div class="nameCardGallery2 pl120slider2 nameCardGalleryPage2">
                                             Спасибо клинике Альтравита, в частности доктора (Имя Очество) за прекрасных дочерей! У нас двойняшки: Лиза и Катя😊
                                             </br>
                                             </br>
@@ -609,7 +897,7 @@
                                             </br>
                                             Спасибо вам за это!
                                         </div>
-<!--                                        <div class="fonBlock"></div>-->
+                                        <div class="fonBlock show814"></div>
                                         <div class="nameRewiews nameTextRewiewsPage2">
                                             <div class="nameTextRewiews nameTextRewiews2">
                                                 Лиза и Катя
@@ -625,7 +913,7 @@
                                 <div class="cardGallery relative">
                                     <img src="" alt="">
                                     <div class="textGalleryJs h506slider2">
-                                        <div class="nameCardGallery2 pl120slider2">
+                                        <div class="nameCardGallery2 pl120slider2 nameCardGalleryPage2">
                                             Несколько лет назад у нас погиб один единственный сын. Мы с женой очень больно и долго это проживали.
                                             Но однажды заговорили о том, чтобы опять завести ребенка вновь. Нам с женой на тот момент было по 46 лет.
                                             И естественным путем мы понимали, что это уже невозможно. Очень долго решались на программу суррогатного материнства.
@@ -641,7 +929,7 @@
                                             </br>
                                             Долгих вам лет процветания!
                                         </div>
-<!--                                        <div class="fonBlock"></div>-->
+                                        <div class="fonBlock show814"></div>
 <!--                                        <div class="nameRewiews nameTextRewiewsPage2">-->
 <!--                                            <div class="nameTextRewiews">-->
 
@@ -656,7 +944,7 @@
                             <div class="itc-slider-item">
                                 <div class="cardGallery relative">
                                     <div class="textGalleryJs h506slider2">
-                                        <div class="nameCardGallery2 pl120slider2">
+                                        <div class="nameCardGallery2 pl120slider2 nameCardGalleryPage2">
                                             Спасибо, клинике Альтравита и нашей замечательной сурмаме Веронике!
                                             </br>
                                             </br>
@@ -670,7 +958,7 @@
                                             </br>
                                             Клинике Альтравита — низкий поклон за профессионализм и чуткость.
                                         </div>
-<!--                                        <div class="fonBlock"></div>-->
+                                        <div class="fonBlock show814"></div>
                                         <div class="nameRewiews nameTextRewiewsPage2">
                                             <div class="nameTextRewiews nameTextRewiews2">
                                                 Ольга, Максим и Вероника
@@ -717,6 +1005,36 @@
     </div>
 </section>
 
+<section class="galleryMobile pt0imp pb100">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="titleSectionGallery text-start">
+                Фотогаллерея
+            </div>
+        </div>
+        <div class="row mb-4">
+            <div class="imgGallery col-md">
+                <img src="./img/gallery/gallery1.png" alt="">
+            </div>
+        </div>
+        <div class="row mb-4">
+            <div class="imgGallery w-50 col-md-6">
+                <img src="./img/gallery/gallery3.png" alt="">
+            </div>
+            <div class="imgGallery w-50 col-md-6">
+                <img src="./img/gallery/gallery2.png" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md">
+                <div class="imgGallery col-md">
+                    <img src="./img/gallery/gallery4.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="bottomSurrMaterinstvoQuestions pb100">
     <div class="container">
         <div class="row mb-5">
@@ -731,7 +1049,7 @@
                 <div class="accordion" id="accordionExample">
                     <div class="accordion-item pb-4">
                         <h2 class="accordion-header">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                 <div class="nameStep d-flex align-items-center">
                                     <div class="iconAndText">
                                         <div class="iconStep"></div>
@@ -745,7 +1063,7 @@
                                 </div>
                             </button>
                         </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 <div class="textAccordian">
                                     <div class="rowTextAccordian mb-3">
@@ -1256,7 +1574,7 @@
     </div>
 </section>
 
-
+    <script src="./js/swiper-bundle.min.js"></script>
     <script src="./js/itc-slider.js" defer></script>
     <script src="./js/readmore.js"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>

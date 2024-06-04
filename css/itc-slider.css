@@ -58,10 +58,18 @@
 
 .itc-slider-btn-prev {
   left: 0;
+  transition: .5s all ease;
 }
 
 .itc-slider-btn-next {
   right: 0;
+  transition: .5s all ease;
+}
+
+.itc-slider-btn-prev:hover,
+.itc-slider-btn-next:hover {
+  background: #fff!important;
+  color: #FF7167!important;
 }
 
 .itc-slider-btn:hover,

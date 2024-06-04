@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+p {
+    padding: 0;
+    margin: 0;
+}
+
 @font-face {
     font-family: "Kobzar KS";
     src: url("../fonts/kobzarks.otf");
@@ -103,10 +108,24 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: .5s all ease;
+}
+
+.socialNetworksHeader button:hover {
+    background: #FF7167;
+}
+
+.locationHeader {
+    cursor: pointer;
+    transition: .5s all ease;
+}
+
+.locationHeader:hover svg {
+    fill: #FF7167;
 }
 
 
-/*   main section    */
+    /*   main section    */
 
 .mainSectionMobile {
     display: none;
@@ -207,6 +226,11 @@ header {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    transition: .5s all ease;
+}
+
+.offerBtnBLue:hover {
+    background: #0AC0AF;
 }
 
 .blockBg {
@@ -365,6 +389,14 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.titleStep {
+    transition: .3s all ease;
+}
+
+.accordion-header:hover .titleStep {
+    color: #E1AB9B;
 }
 
 
@@ -606,7 +638,7 @@ header {
 }
 
 .meRecommend {
-    padding-top: 240px;
+    /*padding-top: 240px;*/
     position: relative;
 }
 
@@ -640,14 +672,18 @@ header {
     display: flex;
     justify-content: flex-end;
     position: relative;
-    bottom: 4px;
+    bottom: 42px;
+}
+
+.iconBlockRecommendConf {
+    bottom: 7px;
 }
 
 .iconBlockRecommendTwoRowText {
     display: flex;
     justify-content: flex-end;
     position: relative;
-    bottom: 36px;
+    bottom: 42px;
 }
 
 .iconBlockRecommend img {
@@ -661,7 +697,6 @@ header {
     background-size: cover;
     width: 52%;
     height: 530px;
-    top: 215px;
     position: absolute;
 }
 
@@ -1153,6 +1188,11 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: .5s all ease;
+}
+
+.btnSocialHeader:hover {
+    background: #FF7167;
 }
 
 .locationContacts .textHeaderInfo {
@@ -1231,6 +1271,23 @@ footer {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    border-bottom: 1px solid transparent;
+    transition: .5s all ease;
+    cursor: pointer;
+}
+
+.descriptionFooter li:hover {
+    border-bottom: 1px solid #FFF9F5;
+}
+
+.blockNavFooter li a {
+    border-bottom: 1px solid transparent;
+    transition: .5s all ease;
+    padding-bottom: 5px;
+}
+
+.blockNavFooter li a:hover {
+    border-bottom: 1px solid #FFF9F5;
 }
 
 
@@ -1246,6 +1303,360 @@ footer {
 }
 
 .containerSpecial {
-    max-width: 1400px;
+    max-width: 100%;
     padding: 0 20px;
+}
+
+
+.galleryMobile {
+    display: none;
+}
+
+
+/*   mobile nav    */
+
+
+
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 3px;
+    background-color: #4B3737;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.burgerMenu {
+    display: none;
+    cursor: pointer;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+.headerMenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btnMenuNav .btnSocialHeader {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F08A83;
+}
+
+.btnSocialHeader a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.border-navMenu {
+    border-top: 1px solid #E1AB9B;
+    border-bottom: 1px solid #E1AB9B;
+    width: 100%;
+    justify-content: center;
+}
+
+.headerMenu {
+    padding: 10px 20px;
+}
+
+.logoMenuNav img {
+    width: 54px;
+    height: auto;
+}
+
+.mobileNav {
+    position: absolute;
+    width: 100%;
+    z-index: 9;
+    background: #fff;
+    top: -313px;
+}
+
+.mobileNav.active {
+    animation-name: menuMobile;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+.mobileNav.noneMenu {
+    animation-name: menuMobileNone;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes menuMobile {
+    0% {
+        top: -150px;
+    }
+    100% {
+        top: 0;
+    }
+}
+
+@keyframes menuMobileNone {
+    0% {
+        top: 0;
+    }
+    100% {
+        top: -313px;
+    }
+}
+
+.btnCloseMenu svg {
+    width: 30px;
+    height: 30px;
+}
+
+
+.more2 {
+    display: none;
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    z-index: 9;
+    color: #F08A83;
+    font-family: 'Actay';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0 20px;
+    transition: .5s all ease;
+}
+
+.show814 {
+    display: none;
+}
+
+
+
+
+
+
+/*    Ваши мечты - наши достижения    */
+
+
+.titleSectionOurCardBlock {
+    color: #4B3737;
+    font-family: 'Cormorant';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.titleSectionOurCardBlock span {
+    color: #F08A83;
+    font-family: "Kobzar KS";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.fonCardAboutMe {
+    width: 318.512px;
+    height: 128.521px;
+    transform: rotate(-20.886deg);
+    border-radius: 60%;
+    border: 2px solid #E1AB9B;
+    position: absolute;
+}
+
+.titleCardAboutMe {
+    color: #4B3737;
+    font-family: "Playfair Display";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.subtitleCardAboutMe {
+    color: #4B3737;
+    text-align: center;
+    font-family: 'Actay';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 270px;
+}
+
+.cardAboutMe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ourCardAbout  {
+    padding-top: 150px;
+}
+
+
+
+/*   ourProgramms   */
+
+
+.titleBlockOurProgramms {
+    color: #4B3737;
+    font-family: 'Cormorant';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.titleBlockOurProgramms .sBlockOur {
+    color: #F08A83;
+    font-family: "Kobzar KS";
+}
+
+.swiper {
+    width: 600px;
+    height: 300px;
+}
+
+.ourProgramms {
+    position: relative;
+}
+
+.imageBlockOurProgramms {
+    position: absolute;
+    left: 0;
+    top: 106px;
+}
+
+
+.swiper-scrollbar.swiper-scrollbar-vertical, .swiper-vertical>.swiper-scrollbar {
+    position: absolute;
+    left: 0!important;
+    right: unset;
+    z-index: 50;
+}
+
+.swiper-scrollbar-drag {
+    background: #2E968C!important;
+}
+
+.swiper-scrollbar {
+    background: transparent!important;
+}
+
+.swiper-slide {
+    padding-left: 150px!important;
+}
+
+.iconSlider {
+    left: 45px!important;
+    top: 27px!important;
+}
+
+.mt60 {
+    margin-top: 60px;
+}
+
+.mt70 {
+    margin-top: 70px;
+}
+
+.mt80 {
+    margin-top: 80px;
+}
+
+.titleSlider {
+    width: 590px;
+}
+
+.sliderOurProgramms {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+/*   feder zakon   */
+
+
+.borderSectFz {
+    border-top: 2px solid #F08A83;
+    border-bottom: 2px solid #F08A83;
+}
+
+.titlefz {
+    color: #4B3737;
+    font-family: 'Actay';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.titleSectionFz {
+    color: #4B3737;
+    text-align: center;
+    font-family: 'Cormorant';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.titleSectfz {
+    color: #4B3737;
+    font-family: 'Actay';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.subtitleSectFz li {
+    color: #4B3737;
+    font-family: 'Actay';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: flex-start;
+}
+
+.pCardFzRight {
+    padding: 35px 0 35px 35px;
+    border-left: 2px solid #F08A83;
+}
+
+.pCardFzLeft {
+    padding: 35px 0 35px 35px;
+}
+
+.noneBr {
+    display: none;
 }

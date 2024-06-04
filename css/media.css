@@ -27,6 +27,12 @@
         flex-direction: column;
         align-items: flex-end;
     }
+    .w50media1200 {
+        width: 50%;
+    }
+    .mb90media1200 {
+        margin-bottom: 90px;
+    }
 }
 
 @media (max-width: 1152px) {
@@ -94,9 +100,16 @@
         right: -21px;
         top: 3px;
     }
+    .sliderLicense25 {
+        width: 25%!important;
+    }
+
 }
 
 @media (max-width: 1075px) {
+    .imageBlockOurProgramms img {
+        width: 310px;
+    }
     .imageLeftMain {
         padding-left: 0;
     }
@@ -129,6 +142,40 @@
     }
     .meRecommend {
         padding-top: 120px;
+    }
+    .h506slider2 {
+        width: auto;
+        height: 345px;
+    }
+    .iconTextRewiewsSlider2 {
+        bottom: -90px;
+    }
+    .nameTextRewiews2 {
+        right: -21px;
+        top: 29px;
+    }
+    .ourCardAbout {
+        padding-bottom: 0;
+    }
+    .media1085px {
+        display: flex;
+        justify-content: space-between;
+    }
+    .w60media1075 {
+        width: 60%;
+    }
+    .w25media1075 {
+        width: 25%;
+    }
+}
+
+@media (max-width: 1038px) {
+    .sliderLicense25 {
+        width: 50%!important;
+    }
+    .block_imgSliderLicense {
+        display: flex;
+        justify-content: center;
     }
 }
 
@@ -164,6 +211,37 @@
         left: 2%;
         top: 10%;
     }
+    .none944 {
+        display: none;
+    }
+    .titleBlockOurProgramms {
+        align-items: flex-end;
+    }
+    .noneBr {
+        display: block;
+    }
+    .titleSlider {
+        display: none;
+    }
+    .sBlockOur {
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 890px) {
+    .media1085px {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .w25media1075 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .w60media1075 {
+        width: 100%;
+    }
 }
 
 @media (max-width: 842px) {
@@ -173,17 +251,32 @@
     .blockOfferMain {
         margin-left: 10px;
     }
+    .more2 {
+        display: flex;
+    }
+    .show814 {
+        display: none;
+        height: 80px;
+    }
+    .h506slider2 {
+        height: 100%;
+        margin: 0 20px;
+    }
+    .titleSection {
+        margin-left: 0;
+    }
 }
 @media (max-width: 818px) {
+    .textPhoto {
+        left: 320px;
+        top: 370px;
+    }
     .mainSectionPadding {
         flex-direction: column;
         align-items: flex-start;
     }
     .mainSection {
         height: 335px;
-    }
-    .meRecommend {
-        padding-top: 680px;
     }
     .fonRecomend {
         top: 500px;
@@ -202,9 +295,8 @@
         width: 100%;
     }
     .imageLeftMain img {
-        max-width: 100%;
         height: auto;
-        width: 100%;
+        width: 380px;
     }
     .fonRecomend {
         top: 670px;
@@ -212,9 +304,32 @@
     .w100media944px {
         justify-content: space-between;
     }
+    .ourCardAbout {
+        padding-top: 370px;
+    }
 }
 
 @media (max-width: 767px) {
+    .burgerMenu {
+        display: inline-block;
+    }
+    .galleryMobile {
+        display: block;
+    }
+    .gallery {
+        display: none;
+    }
+    .imgGallery img {
+        max-width: 100%;
+        height: auto;
+        width: 100%;
+    }
+    .blockNavFooter {
+        margin-bottom: 20px;
+    }
+    .descriptionFooter {
+        margin-bottom: 0;
+    }
     .d-noneMenuList767 {
         display: none;
     }
@@ -306,9 +421,6 @@
     .descriptionMainSection {
         font-size: 14px;
     }
-    .meRecommend {
-        padding-top: 710px;
-    }
     .fonRecomend {
         top: 704px;
     }
@@ -344,9 +456,97 @@
     .fonRecomend {
         display: none;
     }
+    .ourCardAbout {
+        padding-top: 0;
+    }
+    .ourCardAbout {
+        padding-bottom: 100px;
+    }
+    .cardHistory {
+        width: 50%;
+    }
+    .borderBlockHistory {
+        border-top: none;
+        border-bottom: none;
+    }
+    .borderHistoryRight {
+        border-right: none;
+    }
+    .nameStep {
+        padding-left: 30px;
+        left: 0;
+    }
+    .none767px {
+        display: none!important;
+    }
+}
+
+@media (max-width: 705px) {
+    .w50media1200 {
+        width: 100%;
+    }
+    .mb90media1200_2 {
+        margin-bottom: 90px;
+    }
+}
+
+@media (max-width: 626px) {
+    .swiper {
+        width: auto;
+    }
+    .swiper-slide {
+        padding-left: 20px !important;
+    }
+    .iconSlider {
+        left: 15px !important;
+        top: 5px !important;
+    }
+    .textSlider {
+        top: 60px;
+        position: relative;
+    }
+    .subtitleSectFz {
+        font-size: 14px;
+    }
+    .pCardFzRight {
+        padding: 15px 0 15px 15px;
+    }
+    .pCardFzLeft {
+        padding: 15px 0 15px 15px;
+    }
+    .titleSectfz {
+        font-size: 20px;
+    }
+    .mt70 {
+        margin-top: 25px;
+    }
+}
+
+@media (max-width: 594px) {
+    .titleSectionOurCardBlock {
+        text-align: end;
+    }
+}
+
+@media (max-width: 559px) {
+    .mt70 {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 534px) {
+    .sliderLicense25 {
+        width: 100%!important;
+    }
+    .license .itc-slider-wrapper {
+        padding: 0!important;
+    }
 }
 
 @media (max-width: 515px) {
+    .locationHeader svg {
+        display: none;
+    }
     .textPhoto {
         left: 155px;
         top: 255px;
@@ -395,7 +595,26 @@
     .blockTextOffer {
         font-size: 20px;
     }
+    .blockTextOffer span {
+        font-size: 20px;
+    }
     .offerBtnBLue {
         font-size: 14px;
+        margin-right: 0!important;
+    }
+    .mediaMb16px {
+        margin-bottom: 16px;
+    }
+}
+
+@media (max-width: 440px) {
+    .mt80 {
+        margin-top: 55px;
+    }
+}
+
+@media (max-width: 405px) {
+    .consult_special {
+        font-size: 24px;
     }
 }

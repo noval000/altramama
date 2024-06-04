@@ -14,28 +14,86 @@
 </head>
 <body>
 
+
+<nav class="mobileNav">
+    <div class="headerMenu">
+        <div class="logoMenuNav">
+            <img src="./img/logoMenu/altra_mama_logo.jpg" alt="altra_mama_logo">
+        </div>
+        <button class="btnCloseMenu">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M18 6.00003L6 18M6 6.00003L18 18" stroke="#4B3737" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/>
+            </svg>
+        </button>
+    </div>
+    <div class="bodyMenu d-flex flex-column align-items-center justify-content-center">
+        <div class="d-flex flex-column align-items-start">
+            <div class="locationHeader d-flex align-items-center mb-2 mt-3">
+                <img src="./img/icon/iconLocation.png" alt="iconLocation">
+                <div class="textHeaderInfo">
+                    г. Москва, ул. Нагорная 4А
+                </div>
+            </div>
+            <div class="locationHeader d-flex align-items-center mb-2">
+                <img src="./img/icon/iconPhone.png" alt="iconLocation">
+                <div class="textHeaderInfo ms-2">
+                    <a href="">+7 (999) 999 99 99</a>
+                </div>
+            </div>
+            <div class="locationHeader d-flex align-items-center mb-3">
+                <img src="./img/icon/iconMail.png" alt="iconLocation">
+                <div class="textHeaderInfo ms-2">
+                    mama@altra-mama.ru
+                </div>
+            </div>
+        </div>
+        <div class="blockNavBtnMobile">
+            <div class="btnMenuNav d-flex align-items-center">
+                <button class="btnSocialHeader me-3">
+                    <a href="">
+                        <img src="./img/icon/iconWhatsApp.png" alt="">
+                    </a>
+                </button>
+                <button class="btnSocialHeader">
+                    <a href="">
+                        <img src="./img/icon/iconTelegram.png" alt="">
+                    </a>
+                </button>
+            </div>
+        </div>
+        <ul class="border-navMenu d-flex flex-column align-items-center mt-3 pt-3 pb-3">
+            <li class="mb-2">
+                <a href="">Родителям</a>
+            </li>
+            <li>
+                <a href="">Сурмамам</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
 <header class="pt-2 pb-3">
     <div class="container">
         <div class="row pb-2">
             <div class="col-md d-flex align-items-center justify-content-between">
                 <div class="logo">
-                    <img src="./img/Logo.png" alt="Logo">
+                    <img src="./img/logo.png" alt="Logo">
                 </div>
                 <div class="socialNetworksHeader">
                     <div class="blockInfoHeader d-flex align-items-center justify-content-between me-5">
-                        <div class="locationHeader d-flex align-items-center me-4">
+                        <div class="locationHeader iconHeaderNone d-flex align-items-center me-4">
                             <img src="./img/icon/iconLocation.png" alt="iconLocation">
                             <div class="textHeaderInfo">
                                 г. Москва, ул. Нагорная 4А
                             </div>
                         </div>
-                        <div class="locationHeader d-flex align-items-center me-4">
+                        <div class="locationHeader headerMobileNone d-flex align-items-center me-4">
                             <img src="./img/icon/iconPhone.png" alt="iconLocation">
                             <div class="textHeaderInfo ms-2">
                                 <a href="">+7 (999) 999 99 99</a>
                             </div>
                         </div>
-                        <div class="locationHeader d-flex align-items-center">
+                        <div class="locationHeader headerMobileNone d-flex align-items-center">
                             <img src="./img/icon/iconMail.png" alt="iconLocation">
                             <div class="textHeaderInfo ms-2">
                                 mama@altra-mama.ru
@@ -47,11 +105,16 @@
                             <img src="./img/icon/iconWhatsApp.png" alt="">
                         </a>
                     </button>
-                    <button class="btnSocialHeader">
+                    <button class="btnSocialHeader me-3Media767px">
                         <a href="">
                             <img src="./img/icon/iconTelegram.png" alt="">
                         </a>
                     </button>
+                    <div class="burgerMenu">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -59,10 +122,10 @@
             <nav class="d-flex align-items-center justify-content-end">
                 <ul class="d-flex align-items-center">
                     <li class="me-3">
-                        <a href="">Родителям</a>
+                        <a href="index.html">Родителям</a>
                     </li>
                     <li>
-                        <a href="">Сурмамам</a>
+                        <a href="page2.html">Сурмамам</a>
                     </li>
                 </ul>
             </nav>
@@ -95,7 +158,7 @@
                 Заполните анкету, чтобы стать сурмамой и мы перезвоним вам <span>уже сегодня!</span>
             </div>
             <div class="blockBtnOffer">
-                <button class="offerBtnBLue me-4">
+                <button class="offerBtnBLue mediaMb16px me-4">
                     Заполнить анкету
                 </button>
                 <button class="offerBtnBLue">
@@ -106,7 +169,7 @@
     </div>
 </section>
 
-<section class="accordianOffer">
+<section class="accordianOffer pb100">
     <div class="container">
         <div class="row pb100">
             <div class="col-md d-flex align-items-center justify-content-between">
@@ -180,7 +243,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 d-flex justify-content-end">
+            <div class="col-md-4 d-flex justify-content-end none767px">
                 <img src="./img/accordianSection/accordianOneGirl.png" alt="">
             </div>
         </div>
@@ -196,7 +259,7 @@
                 <div class="accordion" id="accordionExample">
                     <div class="accordion-item pb-4">
                         <h2 class="accordion-header">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                                 <div class="nameStep d-flex align-items-center">
                                     <div class="iconAndText">
                                         <div class="iconStep"></div>
@@ -664,18 +727,18 @@
 
 <section class="WhoSurmama mt-2 pb100">
     <div class="container">
-        <div class="row">
+        <div class="row mb-5">
             <div class="col-md">
                 <div class="titleSection">
                     Кто может стать сурмамой?
                 </div>
             </div>
         </div>
-        <div class="row mt-4">
-            <div class="col-md-4">
+        <div class="row mt-4 media1085px">
+            <div class="col-md-4 w25media1075">
                 <img src="./img/surmamaSection/surmama.png" alt="">
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8 w60media1075">
                 <div class="blockPositionSurmam">
                     <div class="titlePositionSurmam mb-4">
                         Требования к кандидаткам в сурмамы:
@@ -1049,6 +1112,265 @@
         </div>
     </div>
 </section>
+
+
+<section class="contacts pb100">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ab37c327b11b7a3c26b6f332056a3de20a77a8253775e96e94761ee106443f94a&amp;source=constructor"
+                        width="100%" height="400" frameborder="0">
+                </iframe>
+            </div>
+            <div class="col-md-4">
+                <div class="blockRightContacts">
+                    <div class="titleContacts">
+                        Контакты
+                    </div>
+                    <div class="blockLinkContacts">
+                        <div class="locationContacts d-flex align-items-center mb-3">
+                            <img src="./img/icon/iconLocation.png" alt="iconLocation">
+                            <div class="textHeaderInfo ms-3">
+                                г. Москва, ул. Нагорная 4А
+                            </div>
+                        </div>
+                        <div class="locationContacts d-flex align-items-center mb-3">
+                            <img src="./img/icon/iconPhone.png" alt="iconLocation">
+                            <div class="textHeaderInfo ms-3">
+                                <a href="">+7 (999) 999 99 99</a>
+                            </div>
+                        </div>
+                        <div class="locationContacts d-flex align-items-center mb-4">
+                            <img src="./img/icon/iconMail.png" alt="iconLocation">
+                            <div class="textHeaderInfo ms-3">
+                                mama@altra-mama.ru
+                            </div>
+                        </div>
+                        <div class="blockBtnContacts d-flex align-items-center">
+                            <button class="btnSocialHeader me-3">
+                                <a href="">
+                                    <img src="./img/icon/iconWhatsApp.png" alt="">
+                                </a>
+                            </button>
+                            <button class="btnSocialHeader">
+                                <a href="">
+                                    <img src="./img/icon/iconTelegram.png" alt="">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="license">
+    <div class="container">
+        <div class="row">
+            <div class="col-md">
+                <div class="titleLicense">
+                    Лицензии и сертификаты
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md">
+                <div class="col-md">
+                    <div class="itc-slider" data-slider="itc-slider">
+                        <div class="itc-slider-wrapper">
+                            <div class="itc-slider-items">
+                                <div class="itc-slider-item sliderLicense25">
+                                    <div class="block_imgSliderLicense">
+                                        <img src="./img/licensies/license1.png" alt="license1">
+                                    </div>
+                                </div>
+                                <div class="itc-slider-item sliderLicense25">
+                                    <div class="block_imgSliderLicense">
+                                        <img src="./img/licensies/license1.png" alt="license1">
+                                    </div>
+                                </div>
+                                <div class="itc-slider-item sliderLicense25">
+                                    <div class="block_imgSliderLicense">
+                                        <img src="./img/licensies/license1.png" alt="license1">
+                                    </div>
+                                </div>
+                                <div class="itc-slider-item sliderLicense25">
+                                    <div class="block_imgSliderLicense">
+                                        <img src="./img/licensies/license1.png" alt="license1">
+                                    </div>
+                                </div>
+                                <div class="itc-slider-item sliderLicense25">
+                                    <div class="block_imgSliderLicense">
+                                        <img src="./img/licensies/license1.png" alt="license1">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--            &lt;!&ndash; Кнопки для перехода к предыдущему и следующему слайду &ndash;&gt;-->
+                        <!--            <button class="itc-slider-btn itc-slider-btn-prev"></button>-->
+                        <!--            <button class="itc-slider-btn itc-slider-btn-next"></button>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="blockNavFooter">
+                    <div class="titleNameListFooter">
+                        Родителям
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="">Наши показатели</a>
+                        </li>
+                        <li>
+                            <a href="">О клинике</a>
+                        </li>
+                        <li>
+                            <a href="">Наша команда</a>
+                        </li>
+                        <li>
+                            <a href="">Показания к программе</a>
+                        </li>
+                        <li>
+                            <a href="">10 шагов вашей программы</a>
+                        </li>
+                        <li>
+                            <a href="">Отзывы родителей</a>
+                        </li>
+                        <li>
+                            <a href="">Фотогалерея</a>
+                        </li>
+                        <li>
+                            <a href="">Развеиваем страхи о сурматеринстве</a>
+                        </li>
+                        <li>
+                            <a href="">Лицензии и сертификаты</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="blockNavFooter">
+                    <div class="titleNameListFooter">
+                        Сурматерям
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="">Что получают сурмамы</a>
+                        </li>
+                        <li>
+                            <a href="">Честный договор</a>
+                        </li>
+                        <li>
+                            <a href="">10 шагов программы сурматеринства</a>
+                        </li>
+                        <li>
+                            <a href="">Кто может стать сурмамой</a>
+                        </li>
+                        <li>
+                            <a href="">Истории сурмам</a>
+                        </li>
+                        <li>
+                            <a href="">Отзывы сурмам</a>
+                        </li>
+                        <li>
+                            <a href="">Фотогаллерея</a>
+                        </li>
+                        <li>
+                            <a href="">Лицензии и сертификаты</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="blockNavFooter">
+                    <div class="titleNameListFooter">
+                        Контакты
+                    </div>
+                    <ul class="blockLinkContacts mb-3">
+                        <div class="locationContactsFooter d-flex align-items-center mb-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M20 10C20 16 12 22 12 22C12 22 4 16 4 10C4 7.87827 4.84285 5.84344 6.34315 4.34315C7.84344 2.84285 9.87827 2 12 2C14.1217 2 16.1566 2.84285 17.6569 4.34315C19.1571 5.84344 20 7.87827 20 10Z" stroke="#FFF9F5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 13C13.6569 13 15 11.6569 15 10C15 8.34315 13.6569 7 12 7C10.3431 7 9 8.34315 9 10C9 11.6569 10.3431 13 12 13Z" stroke="#FFF9F5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <li class="textHeaderInfo ms-3">
+                                <a href="">г. Москва, ул. Нагорная 4А</a>
+                            </li>
+                        </div>
+                        <div class="locationContactsFooter d-flex align-items-center mb-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M22.1381 17.1701V20.1701C22.1392 20.4486 22.0822 20.7243 21.9706 20.9794C21.8591 21.2346 21.6954 21.4637 21.4902 21.652C21.285 21.8402 21.0427 21.9836 20.7789 22.0728C20.515 22.162 20.2355 22.1952 19.9581 22.1701C16.881 21.8357 13.9251 20.7842 11.3281 19.1001C8.91194 17.5648 6.86345 15.5163 5.32812 13.1001C3.63809 10.4913 2.58636 7.52109 2.25812 4.4301C2.23313 4.15356 2.26599 3.87486 2.35462 3.61172C2.44324 3.34859 2.58569 3.10679 2.77288 2.90172C2.96008 2.69665 3.18792 2.53281 3.44191 2.42062C3.69589 2.30843 3.97046 2.25036 4.24812 2.2501H7.24812C7.73342 2.24532 8.20391 2.41718 8.57188 2.73363C8.93985 3.05008 9.18019 3.48954 9.24812 3.9701C9.37474 4.93016 9.60957 5.87282 9.94812 6.7801C10.0827 7.13802 10.1118 7.52701 10.032 7.90098C9.95227 8.27494 9.76698 8.61821 9.49812 8.8901L8.22812 10.1601C9.65167 12.6636 11.7246 14.7365 14.2281 16.1601L15.4981 14.8901C15.77 14.6212 16.1133 14.4359 16.4872 14.3562C16.8612 14.2764 17.2502 14.3056 17.6081 14.4401C18.5154 14.7786 19.4581 15.0135 20.4181 15.1401C20.9039 15.2086 21.3475 15.4533 21.6646 15.8276C21.9818 16.2019 22.1503 16.6797 22.1381 17.1701Z" stroke="#FFF9F5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <li class="textHeaderInfo ms-3">
+                                <a href="">+7 (999) 999 99 99</a>
+                            </li>
+                        </div>
+                        <div class="locationContactsFooter d-flex align-items-center mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M20 4H4C2.89543 4 2 4.89543 2 6V18C2 19.1046 2.89543 20 4 20H20C21.1046 20 22 19.1046 22 18V6C22 4.89543 21.1046 4 20 4Z" stroke="#FFF9F5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M22 7L13.03 12.7C12.7213 12.8934 12.3643 12.996 12 12.996C11.6357 12.996 11.2787 12.8934 10.97 12.7L2 7" stroke="#FFF9F5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <li class="textHeaderInfo ms-3">
+                                <a href="">mama@altra-mama.ru</a>
+                            </li>
+                        </div>
+                        <div class="blockBtnContacts d-flex align-items-center">
+                            <button class="btnSocialFooter me-3">
+                                <a href="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                                        <rect width="40" height="40" fill="#FFF9F5"/>
+                                        <path d="M28.4268 11.5625C26.4512 9.59375 23.8171 8.5 21.0366 8.5C15.2561 8.5 10.5732 13.1667 10.5732 18.9271C10.5732 20.75 11.0854 22.5729 11.9634 24.1042L10.5 29.5L16.061 28.0417C17.5976 28.8438 19.2805 29.2812 21.0366 29.2812C26.8171 29.2812 31.5 24.6146 31.5 18.8542C31.4268 16.1563 30.4024 13.5312 28.4268 11.5625ZM26.0854 22.6458C25.8659 23.2292 24.8415 23.8125 24.3293 23.8854C23.8902 23.9583 23.3049 23.9583 22.7195 23.8125C22.3537 23.6667 21.8415 23.5208 21.2561 23.2292C18.622 22.1354 16.939 19.5104 16.7927 19.2917C16.6463 19.1458 15.6951 17.9062 15.6951 16.5937C15.6951 15.2812 16.3537 14.6979 16.5732 14.4062C16.7927 14.1146 17.0854 14.1146 17.3049 14.1146C17.4512 14.1146 17.6707 14.1146 17.8171 14.1146C17.9634 14.1146 18.1829 14.0417 18.4024 14.5521C18.622 15.0625 19.1341 16.375 19.2073 16.4479C19.2805 16.5938 19.2805 16.7396 19.2073 16.8854C19.1341 17.0312 19.061 17.1771 18.9146 17.3229C18.7683 17.4687 18.6219 17.6875 18.5488 17.7604C18.4024 17.9062 18.2561 18.0521 18.4024 18.2708C18.5488 18.5625 19.061 19.3646 19.8659 20.0937C20.8902 20.9687 21.6951 21.2604 21.9878 21.4063C22.2805 21.5521 22.4268 21.4792 22.5732 21.3333C22.7195 21.1875 23.2317 20.6042 23.378 20.3125C23.5244 20.0208 23.7439 20.0938 23.9634 20.1667C24.1829 20.2396 25.5 20.8958 25.7195 21.0417C26.0122 21.1875 26.1585 21.2604 26.2317 21.3333C26.3049 21.5521 26.3049 22.0625 26.0854 22.6458Z" fill="#E1AB9B"/>
+                                    </svg>
+                                </a>
+                            </button>
+                            <button class="btnSocialFooter">
+                                <a href="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                                        <rect width="40" height="40" fill="#FFF9F5"/>
+                                        <path d="M29.5 12.1022L26.4946 27.7923C26.4946 27.7923 26.0741 28.8801 24.9189 28.3584L17.9846 22.8526L17.9524 22.8364C18.8891 21.9654 26.1524 15.2027 26.4698 14.8961C26.9613 14.4214 26.6562 14.1387 26.0856 14.4974L15.3568 21.553L11.2176 20.1108C11.2176 20.1108 10.5663 19.8708 10.5036 19.3491C10.4401 18.8265 11.2391 18.5439 11.2391 18.5439L28.1131 11.6889C28.1131 11.6889 29.5 11.0579 29.5 12.1022Z" fill="#E1AB9B"/>
+                                    </svg>
+                                </a>
+                            </button>
+                        </div>
+                    </ul>
+                    <ul class="descriptionFooter">
+                        <li>ООО «ЭКО центр»</li>
+                        <li>Юр. и фактический адрес: </li>
+                        <li>117186, Москва, Нагорная ул.,4А </li>
+                        <li>ИНН\КПП: 7727222665/772701001</li>
+                        <li>ОГРН: 1027727002522  ОКПО: 58728410</li>
+                        <li>р/с: 40702810200010007490</li>
+                        <li>к/с: 30101810000000000984</li>
+                        <li>Банк «Развитие-Столица», г. Москва</li>
+                        <li>БИК: 044525984</li>
+                        <li>генеральный директор: Яковенко Сергей Александрович</li>
+                        <li>Первый заместитель генерального директора, заведующая отделом эмбриологии: Апрышко Валентина Петровна</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<section class="consult_special d-flex justify-content-center">
+    <div class="containerSpecial">
+        <div class="row">
+            <div class="col-md text-center">
+                ИМЕЮТСЯ ПРОТИВОПОКАЗАНИЯ. НЕОБХОДИМО ПРОКОНСУЛЬТИРОВАТЬСЯ СО СПЕЦИАЛИСТОМ.
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
     <script src="./js/itc-slider.js" defer></script>
     <script defer src="./js/readmore.js"></script>
     <script defer src="./js/bootstrap.bundle.min.js"></script>
