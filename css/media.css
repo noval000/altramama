@@ -103,7 +103,17 @@
     .sliderLicense25 {
         width: 25%!important;
     }
-
+   .cardGallery {
+       display: flex;
+       justify-content: center;
+   }
+   .textGalleryJs {
+       width: 70%;
+   }
+   .more {
+       margin-bottom: 0;
+       bottom: 70px;
+   }
 }
 
 @media (max-width: 1075px) {
