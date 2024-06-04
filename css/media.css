@@ -226,6 +226,28 @@
     .sBlockOur {
         margin-bottom: 25px;
     }
+    .imageLeftMainIndex img {
+        height: auto;
+    }
+    .blockAbsoluteTextIndex {
+        left: 20%;
+        top: 12%;
+    }
+    .blockAbsoluteTextIndex {
+        font-size: 34px;
+    }
+    .subtitleMainSectionIndex {
+        top: 50px;
+        font-size: 30px;
+    }
+    .textPhotoIndex {
+        left: 140px;
+        top: 460px;
+    }
+    .accordianOffer {
+        padding-top: 0;
+    }
+
 }
 
 @media (max-width: 890px) {
@@ -306,6 +328,19 @@
     }
     .ourCardAbout {
         padding-top: 370px;
+    }
+    .mainSectionIndex {
+        height: auto!important;
+    }
+    .blockOfferMain {
+        margin-bottom: 0;
+    }
+    .textPhotoIndex {
+        left: 293px;
+        top: 622px;
+    }
+    .blockAbsoluteTextIndex {
+        left: 35%;
     }
 }
 
@@ -479,6 +514,20 @@
     .none767px {
         display: none!important;
     }
+    .blockAbsoluteTextIndex {
+        left: 305px;
+        top: 33%;
+    }
+    .textPhotoIndex {
+        left: 293px;
+        top: 600px;
+    }
+    .subtitleMainSectionIndex {
+        display: none;
+    }
+    .show767px {
+        display: block;
+    }
 }
 
 @media (max-width: 705px) {
@@ -604,6 +653,22 @@
     }
     .mediaMb16px {
         margin-bottom: 16px;
+    }
+    .blockAbsoluteText {
+        width: auto;
+    }
+    .imageLeftMainIndex img {
+         height: 438px;
+         width: unset;
+        max-width: 100%;
+    }
+    .textPhotoIndex {
+        left: 195px;
+        top: 450px;
+    }
+    .blockAbsoluteTextIndex {
+        left: 235px;
+        top: 20%;
     }
 }
 

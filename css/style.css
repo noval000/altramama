@@ -253,6 +253,16 @@ header {
     line-height: normal;
 }
 
+.show767px {
+    display: none;
+    color: #4B3737;
+    font-family: 'Cormorant';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
 /*   accordian offer   */
 
 
