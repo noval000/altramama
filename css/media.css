@@ -257,6 +257,12 @@
     .accordianOffer {
         padding-top: 0;
     }
+    .nameCardGallery2 {
+        padding: 170px 20px 20px 20px;
+    }
+    .h506slider2 {
+        height: unset;
+    }
 
 }
 
